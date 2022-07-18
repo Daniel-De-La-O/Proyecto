@@ -32,7 +32,7 @@ void asignarlaberintoI()
 		laberintoI[i] = malloc(columnas * sizeof(int*));
 	}
 }
-
+//En el archivo laberinto.txt, se debe introducir en la primera línea el número de filas y columnas separados por una coma.
 //Aquí se recibe el archivo. 
 void laberintoEF(char* nombre) {
 	char car;
